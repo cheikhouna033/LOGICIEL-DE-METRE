@@ -1,0 +1,21 @@
+path: C:/Users/PC/PycharmProjects/LOGICIEL-DE-METRE/data
+
+train: images/train
+val: images/val
+
+nc: 13
+
+names:
+  0: poutre
+  1: poteau
+  2: voile
+  3: dalle_pleine
+  4: dalle_hourdis_12_4
+  5: dalle_hourdis_12_8
+  6: dalle_hourdis_16_4
+  7: dalle_hourdis_16_8
+  8: dalle_hourdis_20_4
+  9: semelle_iso
+  10: semelle_filante
+  11: poutre_voile
+  12: radier
