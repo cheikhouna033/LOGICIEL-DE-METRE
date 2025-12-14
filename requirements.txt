@@ -1,8 +1,9 @@
-streamlit
-ultralytics
-opencv-python
+ultralytics==8.3.235
+torch
+torchvision
+opencv-python-headless
 pillow
 numpy
-pytesseract
-pdf2image
 pandas
+pdf2image
+streamlit

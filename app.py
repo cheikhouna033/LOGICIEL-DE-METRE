@@ -69,8 +69,8 @@ model = load_model()
 # ============================================================
 def load_image(uploaded_file):
     if uploaded_file.type == "application/pdf":
-        pages = convert_from_bytes(uploaded_file.read())
-        return pages[0]
+        st.error("❌ Les PDF ne sont pas supportés sur Streamlit Cloud. Veuillez importer une image.")
+        st.stop()
     return Image.open(uploaded_file).convert("RGB")
 
 def pil_to_cv(img):
