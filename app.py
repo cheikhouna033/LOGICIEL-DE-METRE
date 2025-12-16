@@ -23,9 +23,10 @@ st.title("🏗️ Logiciel de métré automatique à partir de plans de coffrage
 st.caption("Vision artificielle • Métré béton • Estimation ferraillage")
 
 # ============================================================
-# CHEMIN MODÈLE YOLO (ADAPTE SI BESOIN)
+# CHEMIN MODÈLE YOLO
 # ============================================================
 MODEL_PATH = "models/best.pt"
+
 # ============================================================
 # PARAMÈTRES MÉTIER BTP
 # ============================================================
