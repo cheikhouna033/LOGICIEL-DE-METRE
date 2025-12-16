@@ -32,16 +32,22 @@ st.info(
     "(ex : une poutre ou une travée), puis saisissez sa longueur réelle."
 )
 
+st.subheader("🖼️ Plan de coffrage")
+st.image(image, use_column_width=True)
+
+st.subheader("✏️ Tracer le trait de référence (canvas aligné)")
+
 canvas_scale = st_canvas(
     stroke_width=3,
     stroke_color="#FF0000",
-    background_image=image,
+    background_color="#FFFFFF",
     update_streamlit=True,
     width=width,
     height=height,
     drawing_mode="line",
     key="scale_canvas",
 )
+
 
 scale_factor = None
 
