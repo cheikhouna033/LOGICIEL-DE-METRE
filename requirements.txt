@@ -1,5 +1,8 @@
-streamlit
+streamlit==1.29.0
+streamlit-drawable-canvas==0.9.3
 pillow
 numpy
 pandas
-streamlit-drawable-canvas
+opencv-python-headless
+ultralytics
+python-math
