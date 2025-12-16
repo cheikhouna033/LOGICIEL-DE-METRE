@@ -78,16 +78,19 @@ st.markdown("""
 - ➖ Ligne → éléments linéaires (poutres, semelles)
 """)
 
+st.subheader("✏️ Zone d’annotation (dessin libre)")
+
 canvas = st_canvas(
     fill_color="rgba(0, 0, 255, 0.3)",
     stroke_width=2,
     stroke_color="#FF0000",
-    background_image=image,
+    background_color="#FFFFFF",
     update_streamlit=True,
     height=600,
     drawing_mode="rect",
     key="canvas",
 )
+
 
 # -------------------------------
 # MÉTRÉ
