@@ -25,8 +25,7 @@ st.caption("Vision artificielle • Métré béton • Estimation ferraillage")
 # ============================================================
 # CHEMIN MODÈLE YOLO (ADAPTE SI BESOIN)
 # ============================================================
-MODEL_PATH = r"C:\Users\PC\PycharmProjects\PythonProject1\runs\detect\metre_final7\weights\best.pt"
-
+MODEL_PATH = "models/best.pt"
 # ============================================================
 # PARAMÈTRES MÉTIER BTP
 # ============================================================
